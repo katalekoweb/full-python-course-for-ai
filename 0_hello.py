@@ -24,7 +24,7 @@ With triple quotes
 total = 10 - 7
 power = 10 ** 2
 
-print(power)
+# print(power)
 
 # String
 string = "My name is Dave"
@@ -57,3 +57,23 @@ is_logged_in = True
 
 age = 18
 can_vote = age >= 18
+
+# Logical operators
+age = 25
+has_licence = True
+drunk = False
+
+# AND - both conditions must be true
+# OR - one of the conditions must be true
+# Not - flips the value
+# has_licence = not has_licence
+
+can_drive = age >= 16 and has_licence and not drunk
+# print(can_drive)
+
+# String Manipulation
+name = "Dave"
+string = f"Hi there, my name is {name}!"
+print(string)
+
+
