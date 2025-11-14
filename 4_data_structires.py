@@ -40,5 +40,9 @@ print(colors[0])
 
 # Sets
 # you can create sets using {} or using set()
+# removes duplicates
+
 empty_set = {}
-set2 = set([2,3,5,7,8])
+set2 = set([2,3,5,2,5,7,8])
+
+print(set2)
