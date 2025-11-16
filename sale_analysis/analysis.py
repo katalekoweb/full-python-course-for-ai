@@ -1,6 +1,7 @@
+import os
+
 import pandas as pd
 from helpers import calculate_total, format_currency
-import os
 
 # Read data
 df = pd.read_csv('data/sales.csv')
